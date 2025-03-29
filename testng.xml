@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SeleniumJava 101 Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="LamdaTestFiles.LambdaTestForEdgeBrowser"/>
+      <class name="LamdaTestFiles.LambdaTestForIEBrowser"/>
+      <class name="LamdaTestFiles.LambdaTestForFirefoxBrowser"/>
+      <class name="LamdaTestFiles.LambdaTestForChromeBrowser"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
